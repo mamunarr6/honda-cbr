@@ -1,0 +1,99 @@
+/* google fonts stylesheet */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
+/* common and utilities styles */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+#header-background{
+    background-color: #264653;
+}
+.custom-h2-size{
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 72px;
+    margin-top: 0px;
+    margin-bottom: 18px;
+}
+.custom-p-size-1{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+}
+.custom-button-styles{
+    background-color: #E76F51;
+    border-color: #E76F51;
+    border-radius: 5px;
+    color: white;
+
+}
+.custom-color{
+    color: #E76F51;
+}
+/* uncommon styles */
+.custom-p-size-2{
+    font-size: 14px;
+    margin-bottom: 0px;
+    color: #FFFFFF;
+}
+/* .feature-bike-section{
+    mar
+} */
+.custom-h2-size p{
+    font-size: 14px;
+    font-weight: 600;
+}
+.feature-bike-gray {
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+    filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
+  }
+  
+  /* Disable grayscale on hover */
+  .margin-for-section{
+      margin-top: 7rem;
+      margin-bottom: 7rem;
+  }
+  .feature-bike-gray:hover {
+    -webkit-filter: grayscale(0);
+    filter: none;
+  }
+  /* latest news */
+  .latest-read-more-button0:hover{
+    background-color: white;
+    color: #E76F51;
+    border-color: #E76F51;
+  }
+  .latest-read-more-button{
+      border-color: #E76F51;
+  }
+  .latest-read-more-button:hover{
+    background-color: #E76F51;
+    border-color: #E76F51;
+    border-radius: 5px;
+    color: white;
+  }
+  h5{
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 40px;
+    color: #18191F;
+  }
+.custom-button-accordion{
+    color: #383838;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+}
+/* footer work */
+footer{
+    background-color: #0B0D17
+    ;
+}
+.footer-column-1 a, small, h4{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.footer-image{
+    border: 1px solid gray;
+    border-radius: 5px;
+}
