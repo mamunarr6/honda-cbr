@@ -84,6 +84,13 @@ body{
     font-weight: 500;
     line-height: 28px;
 }
+/* perfect perchase */
+.custom-perfect{
+    transition: transform 2s;
+}
+.custom-perfect:hover{
+    transform: scale(1.06);
+}
 /* footer work */
 footer{
     background-color: #0B0D17

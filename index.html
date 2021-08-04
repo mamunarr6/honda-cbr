@@ -17,6 +17,33 @@
 
 <body>
     <header id="header-background">
+        <!-- navbar -->
+        <nav class="navbar container navbar-expand-lg navbar-light py-4">
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse ">
+                    <ul class="navbar-nav ms-auto me-5 mb-2 mb-lg-0  ">
+                        <li class="nav-item ">
+                            <a class="nav-link text-white active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">News</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white order-1" href="#">Contact</a>
+                        </li>
+                    </ul>
+                    <div>
+                        <button type="button"
+                            class="btn nav-link custom-button-styles text-white py-2 px-5">Login</button>
+                    </div>
+
+
+                </div>
+            </div>
+        </nav>
 
         <!-- header banner -->
         <section class="container py-5">
@@ -195,6 +222,19 @@
                 </div>
             </div>
         </section>
+        <!-- perfect Purchase -->
+        <section class="container overflow-hidden">
+            <div class="row align-items-center justify-content-center custom-perfect">
+                <div class="col-lg-12 position-absolute text-light text-center">
+                    <h1 class=" fw-bolder fs-1">WE ARE LOOKING FOR PERFECT RIDER</h1>
+                    <h1 class=" fw-bolder fs-1">TAKE THE BIKE AND RIDE PERFECT</h1>
+                    <button type="button" class="btn custom-button-styles py-2 px-5"> Purchase</button>
+                </div>
+                <div class="col-lg-12">
+                    <img class="img-fluid" src="images/perfect-bg.jpg" alt="">
+                </div>
+            </div>
+        </section>
         <!-- Frequently Asked Questions -->
         <section class="container">
             <h2 class="custom-h2-size text-center align-items-center my-5">Frequently Asked <span
@@ -280,30 +320,46 @@
                 </div>
             </div>
         </section>
+        <!-- subscribe us -->
+        <section class="container bg-secondary ">
+            <h1 class="text-center text-white-50 pt-4 pb-0">Subscribe Us</h1>
+            <div class="row align-items-center justify-content-between py-5">
+                <div class="col-lg-6 ">
+                    <div class="form-floating mb-3">
+                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput">Email address</label>
+                    </div>
+                    <div class="form-floating">
+                        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                        <label for="floatingPassword">Password</label>
+                    </div>
+                </div>
+                <div class="col-lg-6 d-grid gap-2 col-6 mx-auto">
+                    <button type="button" class="btn btn-danger py-3 mt-3 btn-lg">Subscribe</button>
+                </div>
+            </div>
+        </section>
 
     </main>
     <!-- footer work -->
     <footer>
         <section class="container py-5">
             <div class="row justify-content-between align-items-center">
-                <div class="col-lg-6 footer-column-1">
-                    <div class="my-3">
-                        <a class="pe-3" href="#">Download Now</a>
-                        <a class="pe-3" href="#">License</a>
+                <div class="col-lg-8 footer-column-1 mb-0">
+                    <div class="col-lg-6">
+                        <a class="p-4" href="#">Download Now</a>
+                        <a class="p-4" href="#">License</a>
                     </div>
-                    <div class="my-3">
-                        <a class="pe-3" href="#">About</a>
-                        <a class="pe-3" href="#">Features</a>
-                        <a class="pe-3" href="#">Pricing</a>
-                        <a class="pe-3" href="#">Careers</a>
-                        <a class="pe-3" href="#">Help</a>
-                        <a class="pe-3" href="#">Privacy Policy</a>
-                    </div>
-                    <div class="my-3">
-                        <small class="text-white-50">© 2020 bike. All rights reserved</small>
+                    <div class="col-lg-12 mt-5">
+                        <a class="p-4" href="#">About</a>
+                        <a class="p-4" href="#">Features</a>
+                        <a class="p-4" href="#">Pricing</a>
+                        <a class="p-4" href="#">Careers</a>
+                        <a class="p-4" href="#">Help</a>
+                        <a class="p-4" href="#">Privacy Policy</a>
                     </div>
                 </div>
-                <div class="col-lg-2">
+                <div class=" col-6 col-sm-2 col-lg-2 mt-5 ms-4">
                     <h4>Get the App</h4>
                     <div class="footer-image my-4">
                         <img style="color: white;" width="135px" height="56px" src="images/a1.png" alt="">
@@ -311,6 +367,9 @@
                     <div class="footer-image my-4">
                         <img width="135px" height="56px" src="images/g1.png" alt="">
                     </div>
+                </div>
+                <div class=" col-10 col-lg-6 ms-4 mt-0 text-center">
+                    <small class="text-white-50">© 2020 bike. All rights reserved</small>
                 </div>
             </div>
         </section>
